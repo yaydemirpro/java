@@ -1,7 +1,6 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
-
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -10,7 +9,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
 
 public class QuizC {
-	static int current=0;  // normalde current 0 a esitti. simdi random yaptik.
+	static int current=0;  // normalde current 0 a esitti. Ama simdi random yaptik.
 	static  int counter=0;
 	public static void main(String[] args) {
 		JFrame f = new JFrame("Math Quiz");
@@ -153,5 +152,4 @@ public class QuizC {
 		f.setLayout(null);
 		f.setVisible(true);
 	}
-
 }
