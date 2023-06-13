@@ -1,7 +1,6 @@
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
@@ -36,7 +35,6 @@ public class FrameTransition {
 				f1.setVisible(true);
 				f2.setVisible(false);
 				f3.setVisible(false);
-
 			} 
 		});
 		
@@ -45,8 +43,7 @@ public class FrameTransition {
 				f3.getContentPane().setBackground(Color.green);
 				f1.setVisible(false);
 				f2.setVisible(false);
-				f3.setVisible(true);
-				
+				f3.setVisible(true);				
 			} 
 		});
 		f1.add(b2); f1.add(b3);
@@ -61,5 +58,4 @@ public class FrameTransition {
 		f2.setVisible(false);
 		f3.setVisible(false);
 	}
-
 }
