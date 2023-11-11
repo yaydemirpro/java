@@ -1,5 +1,7 @@
 public class SumOfConsecutiveNumbers {
+
 	public static int sum(int firstNo, int lastNo){
+
 		int result = 0;
 		for (int i = firstNo; i <= lastNo; i++)
 		    result += i;
