@@ -16,7 +16,9 @@ public class CalcC {
 	static String str;
 	static int choice; 
 	static JLabel l;
+
 	public static void main(String[] args) {
+
 		JFrame f=new JFrame("Calculator App");
 		Image i = Toolkit.getDefaultToolkit().getImage("C:\\Users\\jos_m\\Downloads\\avatarprofil.jpg");
 		tf= new JTextField(16);		
