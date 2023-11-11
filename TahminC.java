@@ -5,10 +5,12 @@ import javax.swing.JOptionPane;
 public class TahminC {
 
 	public static void main(String[] args) {
+		
 		Random r = new Random();
 		int r1 =r.nextInt(20);
 		System.out.println(r1);
 		int counter = 1;
+		
 		while (true) {
 			String guess = JOptionPane.showInputDialog("Guess a number");
 			int t = Integer.parseInt(guess);
