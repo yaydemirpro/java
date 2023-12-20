@@ -4,6 +4,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
+
 public class FrameTransition {
 
 	public static void main(String[] args) {
@@ -20,6 +21,7 @@ public class FrameTransition {
 		b3.setBounds(75, 150, 150, 30);
 
 		b2.addActionListener(new ActionListener() {
+
 			public void actionPerformed (ActionEvent e) {
 				f2.getContentPane().setBackground(Color.orange);
 				f1.setVisible(false);
@@ -60,4 +62,5 @@ public class FrameTransition {
 		f2.setVisible(false);
 		f3.setVisible(false);
 	}
+
 }
